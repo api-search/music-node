@@ -11,9 +11,9 @@ description: >-
   including 226 million subscribers in more than 180 markets.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/spotify.yml
-created: 2023/11/15
-modified: 2023/11/15
-specificationVersion: '0.16'
+created: '2023-11-15T00:00:00.000Z'
+modified: '2024-07-03'
+specificationVersion: '0.18'
 tags: []
 apis:
   - name: Spotify Web API
@@ -30,16 +30,23 @@ apis:
       - type: Documentation
         url: https://developer.spotify.com/documentation/web-api
       - type: OpenAPI
-        url: https://developer.spotify.com/reference/web-api/open-api-schema.yaml
+        url: properties/spotify-openapi-original.yml
       - type: Getting Started
         url: >-
           https://developer.spotify.com/documentation/web-api/tutorials/getting-started
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://developer.spotify.com/reference/web-api/open-api-schema.yaml-openapi-search.yml
     aid: spotify:spotify-web-api
 common:
+  - type: Developer
+    url: https://developer.spotify.com/
+  - type: Getting Started
+    url: >-
+      https://developer.spotify.com/documentation/web-api/tutorials/getting-started
+  - type: Authorization
+    url: https://developer.spotify.com/documentation/web-api/concepts/authorization
+  - type: Rate Limits
+    url: https://developer.spotify.com/documentation/web-api/concepts/rate-limits
+  - type: Scopes
+    url: https://developer.spotify.com/documentation/web-api/concepts/scopes
   - type: Whats New
     url: https://developer.spotify.com/community
   - type: Embeds
@@ -58,7 +65,6 @@ maintainers:
 overlays:
   - type: APIs.io Search
     url: overlays/apis-io-search.yml
-  - type: API Evangelist Ratings
-    url: overlays/apis-io-search.yml
 aid: spotify
+
 ---
