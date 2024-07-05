@@ -10,7 +10,7 @@ description: >-
   popular audio streaming subscription service with more than 574 million users,
   including 226 million subscribers in more than 180 markets.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/spotify.yml
+url: https://raw.githubusercontent.com/api-search/music/main/_apis/spotify/apis.md
 created: '2023-11-15T00:00:00.000Z'
 modified: '2024-07-03'
 specificationVersion: '0.18'

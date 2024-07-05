@@ -5,7 +5,7 @@ description: >-
   and share song lyrics with translations. Musixmatch has 80 million users, 8
   million songs with their respective lyrics, and 115+ employees.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/musixmatch.yml
+url: https://raw.githubusercontent.com/api-search/music/main/_apis/musixmatch/apis.md
 created: '2024-06-07T00:00:00.000Z'
 modified: '2024-07-03'
 specificationVersion: '0.18'
