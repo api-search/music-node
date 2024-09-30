@@ -1,3 +1,4 @@
+---
 name: Spotify
 description: >-
   Spotify’s platform revolutionized music listening forever when we launched in
@@ -65,3 +66,4 @@ overlays:
   - type: APIs.io Search
     url: overlays/apis-io-search.yml
 aid: spotify
+---
